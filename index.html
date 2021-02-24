@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+			crossorigin="anonymous"
+		/>
+
+		<title>Github Profile Search</title>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<div class="container-fluid justify-content-center">
+				<h1 class="navbar-brand">GitHub Finder</h1>
+			</div>
+		</nav>
+
+		
+			<div class="row justify-content-center">
+				<div class="col-8">
+					<div class="card card-body mt-3">
+						<h3>Search Github Users</h3>
+						<p class="lead">
+							Enter a username to fetch users profile info and repos
+						</p>
+						<input
+							type="text"
+							class="form-control"
+							id="usernameInput"
+							placeholder="GitHub UserName..."
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="profileData" class="container">
+
+			<div class="row justify-content-center">
+				<div class="col-9">
+					<div class="card mt-3">
+						<div class="card-body">
+							<div class="row">
+							<div class="col-4">
+							<img
+								src="https://avatars.githubusercontent.com/u/5550850?v=4"
+								alt=""
+							/>
+						</div>
+						<div class="col-8">
+            <span class=" fs-6 badge  bg-primary">Public Repos:92</span>
+						<span class="fs-6 badge bg-secondary">Public Gists:18</span>
+<span class="fs-6 badge bg-success">Followers:30</span>
+<span class="fs-6 badge bg-info">Following:02</span><ul class="mt-4 list-group">
+  <li class="list-group-item" style="height: 50px; padding: 10px 15px;">Company:null</li>
+  <li class="list-group-item" style="height: 50px; padding: 10px 15px;">Website/Blog:http://www.naren.com</li>
+  <li class="list-group-item" style="height: 50px; padding: 10px 15px;">Location:Alibag, IN</li>
+  <li class="list-group-item" style="height: 50px; padding: 10px 15px;">Member Since : 2019-4-30</li>
+</ul></div></div>
+              
+						</div><a class="rounded-pill col-4 btn btn-primary mb-3 mx-2">View Profile</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="border text-muted mt-3">
+			<div class="container">
+				<p class="text-center">Github Finder &copy;</p>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
+
+<!-- //client secret 543b35c1777a90b4d280ff202ad543c905f121d7  -->
+<!-- //client id
+b6fa0b58c73c6ecdddb9 -->
+
+<!-- url https://api.github.com/users/bradtraversy?client_id=b6fa0b58c73c6ecdddb9&client_secret=543b35c1777a90b4d280ff202ad543c905f121d7 -->
+<!-- url repos https://api.github.com/users/naren03/repos -->
